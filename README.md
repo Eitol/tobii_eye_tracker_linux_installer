@@ -22,7 +22,9 @@ Calibrate the device
 #### Run the example code
 
 cd example
+
 gcc  main.cpp -o main -pthread /usr/lib/tobii/libtobii_stream_engine.so
+
 ./main
 
 ![Example test](media/example_test.gif)
@@ -31,8 +33,10 @@ gcc  main.cpp -o main -pthread /usr/lib/tobii/libtobii_stream_engine.so
 You will see how the tracker captures the position of the screen you are looking at
 
 
-Test env:
+#### Test env:
+
 SO: Ubuntu 18.10 x86_64 Cinnamon 4.18.0-17-generic
+
 Tracker: Tobii
 
 
