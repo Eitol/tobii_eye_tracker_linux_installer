@@ -2,6 +2,7 @@
 
 LIB_DIR=./lib
 
+
 sudo apt --fix-broken install libsqlcipher0 ./deps/libuv0.10_0.10.22-2_amd64.deb libpthread-stubs0-dev build-essential
 
 # Targeted Linux distribution is Ubuntu Linux 16.04 LTS
@@ -24,12 +25,12 @@ else
     echo "${LIB_DIR} already exist. Continue..."
 fi
 
-sudo mkdir /usr/lib/tobii
-sudo mkdir /usr/lib32/tobii
+mkdir /usr/lib/tobii
 sudo cp -pR ${LIB_DIR}/lib/x64/*.so /usr/lib/tobii/
-sudo cp -pR ${LIB_DIR}/lib/x86/*.so /usr/lib32/tobii/
 
-sudo cp -R ${LIB_DIR}/include /usr/include
+sudo mkdir /usr/include/tobii
+sudo cp -R ${LIB_DIR}/include/tobii/* /usr/include/tobii
+
 echo "DONE :)"
 
 sudo apt install ./Tobii.Pro.Eye.Tracker.Manager.Linux-1.12.1.deb
