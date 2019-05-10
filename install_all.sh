@@ -25,7 +25,7 @@ else
     echo "${LIB_DIR} already exist. Continue..."
 fi
 
-mkdir /usr/lib/tobii
+sudo mkdir /usr/lib/tobii
 sudo cp -pR ${LIB_DIR}/lib/x64/*.so /usr/lib/tobii/
 
 sudo mkdir /usr/include/tobii
