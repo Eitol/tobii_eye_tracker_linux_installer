@@ -27,7 +27,7 @@ fi
 
 sudo mkdir /usr/lib/tobii
 sudo cp -pR ${LIB_DIR}/lib/x64/*.so /usr/lib/tobii/
-
+sudo cp ./tobii.conf /etc/ld.so.conf.d/
 sudo mkdir /usr/include/tobii
 sudo cp -R ${LIB_DIR}/include/tobii/* /usr/include/tobii
 
