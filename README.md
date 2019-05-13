@@ -39,6 +39,8 @@ SO: Ubuntu 18.10 x86_64 Cinnamon 4.18.0-17-generic
 
 Tracker: Tobii
 
+See:
+https://github.com/Eitol/tobii_is4_x11
 
 
 
