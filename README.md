@@ -8,7 +8,7 @@ https://www.tobiipro.com/es/learn--support/downloads/
 
 #### Instalation
 
-bash ./install.sh
+bash ./install_all.sh
 
 #### Configuration
 
