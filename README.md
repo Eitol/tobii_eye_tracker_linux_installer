@@ -5,6 +5,7 @@ https://developer.tobii.com/consumer-eye-trackers/stream-engine/getting-started
 
 The manager is obtained from:
 https://www.tobiipro.com/es/learn--support/downloads/
+(Changed to: https://www.tobiipro.com/product-listing/eye-tracker-manager/)
 
 #### Instalation
 
